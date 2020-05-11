@@ -1,0 +1,155 @@
+body {
+    font-size: 24px;
+}
+
+.logo {
+    height: 64px;
+}
+
+.logo-color {
+    color: #2869B0;
+}
+
+.logo-text {
+    font-size: 40px;
+}
+
+.logo {
+    margin: 15px;
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+}
+
+.nav {
+    background-color: white;
+}
+
+.nav>div:last-child {
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.nav>div {
+    display: inline-block;
+}
+
+.nav>div>p {
+    display: inline-block;
+}
+
+.bg-image {
+    background: url('http://m-files.cdnvideo.ru/lpfile/9/f/d/9fd40a42126c04b621b3d1b2897760f4.jpg');
+    height: 1000px;
+    /* background-attachment: fixed; */
+}
+
+.text-wrapper {
+    background-color: rgba(222, 227, 223, 0.9);
+    border-radius: 10px;
+}
+
+.solutation-text {
+    height: 100%;
+}
+
+.solutation-text>div {
+    min-height: 30%;
+    margin: 30px;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+.btn {
+    font-size: 130%;
+}
+
+.title {
+    margin: 40px 0px;
+}
+
+.title>h1 {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: lightgrey 3px 3px 3px 3px;
+}
+
+.card>img {
+    width: 100%;
+}
+
+.image-card>img {
+    width: 100%;
+}
+
+.number {
+    width: 20%;
+    color: #2869B0;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.about-company-item-text>p {
+    font-size: 24px;
+    margin: 50px 0px;
+}
+
+.map-bg-image {
+    background: url('http://transportation.somee.com/content/51e2a0fb1855752c2dda220bf4d42777.jpeg') 100% 75%;
+    padding: 50px 0px;
+}
+
+.map-bg-image img {
+    width: 100%;
+}
+
+.light-text {
+    color: white;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+
+.text-center>h1, h3 {
+    width: 100%;
+}
+
+.contact-item>div>a {
+    color: #2869B0;
+    text-decoration: none;
+}
+
+.contact-item>div {
+    text-align: center;
+}
+
+footer {
+    margin: 50px 0px;
+}
+
+@media screen and (max-width: 840px) {
+    .nav-item-hide {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .logo {
+        display: none !important;
+    }
+}
