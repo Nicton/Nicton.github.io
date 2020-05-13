@@ -159,6 +159,7 @@ footer {
 @media screen and (max-width: 830px) {
   .logo-text {
     font-size: 30px;
+    padding-bottom: 0px;
   }
   .logo {
     margin: 7px;
@@ -169,13 +170,22 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-  .logo-text {
-    font-size: 20px;
-  }
   .logo {
     display: none !important;
   }
   .nav > div:last-child {
-    font-size: 15px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .logo-text {
+    font-size: 16px;
+  }
+  .nav > div:last-child {
+    font-size: 12px;
+  }
+  .nav-contact > a:last-child {
+    display: none !important;
   }
 }
